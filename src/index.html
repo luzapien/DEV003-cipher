@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="root">
+    <h1>Mensajería Secreta</h1>
+    <div class="container">
+      <h3>Mensaje:</h3>
+      <textarea name="textarea" id="textarea" rows="10" cols="50" placeholder="Escribe tu mensaje"
+        onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toUpperCase()"></textarea>
+      <p><input type="number" id="offset" value="1" />Llave secreta</p>
+      <button class="boton" type="button" id="cipher">Cifrar</button>
+      <button class="boton" type="button" id="decipher">Descifrar</button>
+      <p>Resultado: <output id="message" for="textarea offset"></output></p>
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
