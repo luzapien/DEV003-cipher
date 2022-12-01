@@ -1,17 +1,19 @@
 html,
 body {
   font-family: Georgia, sans-serif;
-  background-color: #fffb91;
+  background-color: none;
 }
 
 #root {
   text-align: center;
-  border: solid;
+  border: 1px solid;
+  border-radius: 10px;
   margin: 0 auto;
   width: 500px;
   padding: 30px;
   background-color: #ff9aa2;
-  color: beige;
+  color: rgb(0, 0, 0);
+  
 }
 
 .container {
@@ -32,6 +34,7 @@ h1 {
 #offset {
   width: 40px;
   margin: 20px;
+  background-color: #a0d2f3;
 }
 
 .boton {
@@ -42,19 +45,16 @@ h1 {
   padding: 5px;
 }
 
+.boton:hover {
+  background-color: #f7cb6c;
+  cursor: pointer;
+}
+
 #cipher {
   margin-bottom: 10px;
 }
 
-.boton:hover {
-  background-color: rgb(126, 65, 65);
-  cursor: pointer;
-}
 
 #textarea {
-  background-color: #fcfcda;
-}
-
-#message {
-  color: rgb(145, 69, 226);
+  background-color: #a0d2f3;
 }
