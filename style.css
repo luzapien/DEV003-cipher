@@ -1,0 +1,60 @@
+html,
+body {
+  font-family: Georgia, sans-serif;
+  background-color: none;
+}
+
+#root {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 500px;
+  padding: 30px;
+  background-color: #ff9aa2;
+  color: rgb(0, 0, 0);
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+h1 {
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 0;
+  font-size: 3em;
+  font-weight: 100;
+}
+
+#offset {
+  width: 40px;
+  margin: 20px;
+  background-color: #a0d2f3;
+}
+
+.boton {
+  width: 80px;
+  border-radius: 30px;
+  background-color: #fadc9b;
+  color: black;
+  padding: 5px;
+}
+
+.boton:hover {
+  background-color: #f7cb6c;
+  cursor: pointer;
+}
+
+#cipher {
+  margin-bottom: 10px;
+}
+
+
+#textarea {
+  background-color: #a0d2f3;
+}
