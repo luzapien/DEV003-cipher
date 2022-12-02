@@ -1,3 +1,20 @@
+## README
+
+## Descripción
+
+Aplicación de mensajería secreta para parejas y amigos.
+
+Hoy en día surgen acontecimientos en los que la comunicación por mensajería carece de cierta privacidad, en algunos casos resulta un poco incómodo tener la necesidad de comunicar algo importante o personal a tu pareja o amigo y no estar seguro si habrá alguien cerca que pueda leer ese mensaje tuyo tan personal.
+
+## Objetivos
+
+El objetivo es dar al usuario la tranquilidad de que su mensaje solo podrá ser Descifrado por el destinatario a través del  uso de esta aplicación, la cual permitirá al usuario -Cifrar- y al destinatario -Descifrar-   el mensaje mediante la proporción de una llave secreta (número).
+
+## Función
+
+Todo esto funciona mediante un esquema simple de encriptación de letras llamado -Cifrado César-, en dónde el usuario deberá insetar su mensaje en el área de texto,enseguida colocar la -llave secreta- es decir, proporcionar un número el cual indicará cuantos desplazamientos hacia la derecha se harán para la encriptación del mensaje; una vez hecho esto se dará click en el botón -Cifrar- y enseguida aparecerá en la parte inferior el mensaje cifrado.
+Para la descifración del mensaje, el usuario destinatario deberá de colocar el mensaje Cifrado de su remitente en el área de texto, colocar el número o llave secreta que le habrá proporcionado el usuario remitente el cual es el mismo número que utilizó al momento de Cifrar. Enseguida deberá dar Click al botón Descifrar y en la parte inferior aparecerá el mensaje descifrado.
+
 # Cifrado César
 
 ## Índice
