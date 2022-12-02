@@ -1,5 +1,8 @@
 const cipher = {
   encode: function (offsetValue, textareaValue) {
+    if (typeof offsetValue !== "number" || typeof textareaValue !== "string") {
+      throw new TypeError();
+    }
     let output = "";
 
     for (let i = 0; i < textareaValue.length; i++) {
@@ -18,6 +21,9 @@ const cipher = {
     return output;
   },
   decode: function (offsetValue, textareaValue) {
+    if (typeof offsetValue !== "number" || typeof textareaValue !== "string") {
+      throw new TypeError("Tipos de datos no válidos", "cipher.js", 3);
+    }
     let output = "";
 
     for (let i = 0; i < textareaValue.length; i++) {
