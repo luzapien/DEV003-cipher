@@ -13,16 +13,17 @@ const cipher = {
         char = String.fromCharCode(((code - 65 + offsetValue) % 26) + 65);
       } else if (code >= 97 && code <= 122) {
         char = String.fromCharCode(((code - 97 + offsetValue) % 26) + 97);
-      }
 
+      }
       output = output + char;
+
     }
 
     return output;
   },
   decode: function (offsetValue, textareaValue) {
     if (typeof offsetValue !== "number" || typeof textareaValue !== "string") {
-      throw new TypeError("Tipos de datos no válidos", "cipher.js", );
+      throw new TypeError("Tipos de datos no válidos", "cipher.js", 25);
     }
     let output = "";
 
