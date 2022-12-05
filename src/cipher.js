@@ -22,7 +22,7 @@ const cipher = {
   },
   decode: function (offsetValue, textareaValue) {
     if (typeof offsetValue !== "number" || typeof textareaValue !== "string") {
-      throw new TypeError("Tipos de datos no válidos", "cipher.js", 3);
+      throw new TypeError("Tipos de datos no válidos", "cipher.js", );
     }
     let output = "";
 
