@@ -10,8 +10,6 @@ cipherBtn.addEventListener("click", function () {
   const answer = cipher.encode(offsetValue, textareaValue);
 
   messageElement.value = answer;
-
-  //console.log(cipher);
 })
 
 decipherBtn.addEventListener("click", function () {
@@ -21,9 +19,4 @@ decipherBtn.addEventListener("click", function () {
   const answer = cipher.decode(offsetValue, textareaValue);
 
   messageElement.value = answer;
-
-
 })
-
-
-//console.log(cipher)
