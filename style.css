@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: Georgia, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-image: url('space.png');
 }
 
@@ -80,10 +80,10 @@ button {
   margin: 80px;  
 }
 output{
-  background-color: rgb(57, 163, 163);
+  background-color: blue;
 }
 p,label{
-  color: blue;
+  color: white;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   #root{
