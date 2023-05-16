@@ -8,17 +8,33 @@
 </head>
 
 <body>
+
   <div id="root">
-    <h1>Mensajería Secreta</h1>
     <div class="container">
+      <div class="ship">
+      </div>
       <h3>Mensaje:</h3>
       <textarea name="textarea" id="textarea" rows="10" cols="50" placeholder="Escribe tu mensaje"></textarea>
+      <label for="offset">Llave secreta</label>
       <input type="number" id="offset" value="1" />
-        <label for="offset">Llave secreta</label>
       <button class="boton" type="button" id="cipher">Cifrar</button>
       <button class="boton" type="button" id="decipher">Descifrar</button>
       <p>Cifrado/Descifrado: <output id="message" for="textarea offset"></output></p>
     </div>
+    <div class="container">
+      <div class="ship2">
+      </div>
+      <h3>Mensaje:</h3>
+      <textarea name="textarea" id="textarea2" rows="10" cols="50" placeholder="Escribe tu mensaje"></textarea>
+      <label for="offset">Llave secreta</label>
+      <input type="number" id="offset" value="1" />
+      <button class="boton" type="button" id="cipher2">Cifrar</button>
+      <button class="boton" type="button" id="decipher2">Descifrar</button>
+      <div class="output">
+        <p>Mensaje secreto: <output id="message2" for="textarea offset"></output></p>
+      </div>
+    </div>
+  </div>
   </div>
   <script src="index.js" type="module"></script>
 </body>
