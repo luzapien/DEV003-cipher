@@ -23,13 +23,6 @@ body {
   align-items: center;
 }
 
-h1 {
-  border-radius: 5px;
-  padding: 20px;
-  margin-top: 0;
-  font-size: 3em;
-  font-weight: 100;
-}
 
 #offset {
   width: 40px;
@@ -79,11 +72,15 @@ button {
   background-image: url('alien-removebg-preview2.png');
   margin: 80px;  
 }
+textarea{
+  font-size: 1rem;
+}
 output{
   background-color: blue;
 }
 p,label{
   color: white;
+  font-size: 2rem;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   #root{
